@@ -6,5 +6,6 @@ Till learned concepts:
   1.array ADT
   2.string ADT
   3.linkedlist
+    a.creating linkedlist in different ways
   
 
