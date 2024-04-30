@@ -1,1 +1,0 @@
-Node *deleteHead(struct Node *head);

@@ -12,7 +12,7 @@ void create(int x){
     t=(struct Node*)malloc(sizeof(struct Node));
     t->data=x;
     t->next=NULL;
-    if(first==NULL)
+    if(first->next==NULL)
     {  
         first=last=t;
     }
