@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-int arr[]={34,12,56,79,90};
+// int arr[]={34,12,56,79,90};
 struct Node
 {
     int data;
@@ -22,6 +22,7 @@ void create(int value)
         last=t;
     }
 }
+
 void display(struct Node *p)
 {
     while(p!=NULL)
@@ -30,14 +31,43 @@ void display(struct Node *p)
         p=p->next;
     }
 }
+int isSorted()
+{
+    int x;//track=0;
+    x=-32768;
+    struct Node *p;
+    p=first;
+    while(p!=NULL)
+    {
+        if(p->data<x)
+           return 0;
+        x=p->data;
+        p=p->next;
+
+    }
+    
+    return 1;
+    
+}
 int main()
 {
-    int arr[]={12,4,5,67,89};
-    int i;
+    int arr[]={12,14,15,16,89};
+    int i,found;
     for(i=0;i<5;i++)
     {
         create(arr[i]);
     }
     display(first);
+    printf("\n");
+    found=isSorted();
+    if(found==1)
+    {
+        printf("Linked list is sorted");
+    }
+    else{
+        printf("Linked list is not sorted");
+    }
+
     return 0;
 }
+
