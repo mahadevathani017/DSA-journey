@@ -13,7 +13,7 @@ void create(int value)
     if(first==NULL)
     {
         last=first=t;
-    }
+    } 
     else{
         last->next=t;
         last=t;
@@ -30,7 +30,8 @@ void removeDupli(){
             p=q;
             q=q->next;
         }
-        else{
+        else
+        {
             p->next=q->next;
             x=q->data;
             free(q);
