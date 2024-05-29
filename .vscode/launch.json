@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Mahadev/Coding/problem-solving-datastruture/DSA-journey/linkedlist/striversa2z",
-      "program": "d:/Mahadev/Coding/problem-solving-datastruture/DSA-journey/linkedlist/striversa2z/build/Debug/outDebug",
+      "cwd": "d:/Mahadev/Coding/problem-solving-datastruture/DSA-journey/linkedlist",
+      "program": "d:/Mahadev/Coding/problem-solving-datastruture/DSA-journey/linkedlist/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

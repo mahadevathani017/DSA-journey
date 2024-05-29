@@ -1,11 +1,12 @@
 Name:Mahadev Athani
 Course:DSA
-start Date:jan 1 2024
+start Date:jan 8 2024
 
 Till learned concepts:
   1.array ADT
   2.string ADT
   3.linkedlist
-    a.creating linkedlist in different ways
+    a.creating linkedlist in different ways(using array and inserting data)
+    b.recursive operstions on linkedlist
   
 

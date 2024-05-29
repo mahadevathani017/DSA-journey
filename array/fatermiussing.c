@@ -17,4 +17,4 @@ int main()
     }
     return 0;
 }
-time complexity is O(n)
+// time complexity is O(n)

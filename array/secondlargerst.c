@@ -9,8 +9,7 @@ int main()
         if(arr[i]>largest)
         {
             largest=arr[i];
-        }+
-    }
+        }    }
     for(i=0;i<6;i++)
     {
         if(arr[i]>slargest && arr[i]!=largest)
